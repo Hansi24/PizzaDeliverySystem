@@ -1,0 +1,96 @@
+/* PizzaCustomization.css */
+.pizza-customization-container {
+  background-color: white;
+  color: rgb(14, 9, 1);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  color: rgb(111, 80, 22);
+  font-size: 35px;
+}
+
+.pizza-details {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.pizza-image {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 2px solid orange;
+}
+
+.pizza-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customization-options {
+  display: flex;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.option-button {
+  background-color: rgb(221, 214, 204);
+  border: 2px solid rgb(11, 6, 1);
+  color: rgb(39, 26, 1);
+  padding: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  gap: 10px;
+}
+
+.option-button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.option-button.selected {
+  background-color: orange;
+  color: white;
+}
+
+.notes-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  resize: none;
+}
+
+.total-price {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(71, 47, 4);
+}
+
+.submit-button {
+  display: block;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: darkorange;
+}
